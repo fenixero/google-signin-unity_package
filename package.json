@@ -1,0 +1,23 @@
+{
+  "name": "com.google.signin",
+  "version": "1.0.4",
+  "displayName": "Google Sign-In",
+  "keywords": [
+    "Google",
+    "Sign-In",
+    "App"
+  ],
+  "author": {
+    "name": "Google LLC",
+    "url": "https://developers.google.com/identity/sign-in/android/start?hl=es-419"
+  },
+  "description": "Works with Android and iOS. This plugin exposes the Google Sign-In API within Unity. This is specifically intended to be used by Unity projects that require OAuth ID tokens or server auth codes.",
+  "unity": "2018.1",
+  "samples": [
+    {
+      "displayName": "Sample scene",
+      "description": "Contains sample scene",
+      "path": "Samples~/GoogleSignIn"
+    }
+  ]
+}

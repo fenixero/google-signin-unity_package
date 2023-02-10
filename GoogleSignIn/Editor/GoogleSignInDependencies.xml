@@ -8,11 +8,16 @@
         <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
       </androidSdkPackageIds>
     </androidPackage>
+    <androidPackage spec="com.google.signin:google-signin-support:1.0.4">
+      <repositories>
+        <repository>Assets/GoogleSignIn/Editor/m2repository</repository>
+      </repositories>
+    </androidPackage>
   </androidPackages>
 
   <!-- iOS Cocoapod dependencies can be specified by each iosPod element. -->
   <iosPods>
-    <iosPod name="GoogleSignIn" version=">= 6.0.2" bitcodeEnabled="false"
+    <iosPod name="GoogleSignIn" version="~> 6.0.2" bitcodeEnabled="false"
         minTargetSdk="6.0">
     </iosPod>
   </iosPods>

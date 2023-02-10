@@ -1,0 +1,4 @@
+[submodule "GoogleSignInPlugin/Packages/GoogleSignIn"]
+	path = GoogleSignInPlugin/Packages/GoogleSignIn
+	url = https://github.com/fenixero/google-signin-unity_package
+	branch = package
